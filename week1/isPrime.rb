@@ -7,7 +7,7 @@ def isPrime(a)
 	end
 	puts " is Prime"
 end
-for i in 1..10
+for i in 1..1000
 	number = gets.to_i
 	isPrime(number)
 end
